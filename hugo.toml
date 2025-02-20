@@ -1,4 +1,4 @@
-baseURL = "https://phrankson.github.io/"
+baseURL = "blog.utobong.me"
 languageCode = "en-us"
 title = "My Blog"
 theme = "archie"
