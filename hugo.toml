@@ -1,0 +1,26 @@
+baseURL = "https://phrankson.github.io/"
+languageCode = "en-us"
+title = "My Blog"
+theme = "archie"
+
+# Archie theme settings
+[params]
+  mode = "auto" # dark/light/auto
+  subtitle = "Clean and minimal personal blog"
+  mathjax = true # For math typesetting
+
+# Main menu items
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
