@@ -1,22 +1,37 @@
-baseURL = "blog.utobong.me"
+baseURL = "https://blog.utobong.me"
 languageCode = "en-us"
-title = "My Blog"
-theme = "archie"
-
-# Archie theme settings
+title = "Learn it, Build it, Share it"
+theme="archie"
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 [params]
-  mode = "auto" # dark/light/auto
-  subtitle = "Clean and minimal personal blog"
-  mathjax = true # For math typesetting
+	mode="auto"
+	useCDN=false
+	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
 
-# Main menu items
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/athul/archie"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/athulcajay/"
+
+[[params.social]]
+name = "GitLab"
+icon = "gitlab"
+url = "https://gitlab.com/athul/"
+
 [[menu.main]]
 name = "Home"
 url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Posts"
+name = "All posts"
 url = "/posts"
 weight = 2
 
@@ -24,3 +39,8 @@ weight = 2
 name = "About"
 url = "/about"
 weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
