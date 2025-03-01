@@ -45,30 +45,20 @@
 
 			
 			<main class="list">
-				<div class="site-description"><p>Minimal and Clean <a href="https://github.com/athul/archie">blog theme for Hugo</a></p></div>
+				<div class="site-description"></div>
 				
 				
 				
 				<section class="list-item">
-					<h1 class="title"><a href="/posts/my-first-post/">My First Post</a></h1>
+					<h1 class="title"><a href="/posts/secrets-with-sops/">Encrypting Kubernetes Secrets with SOPS: My Homelab Setup</a></h1>
 					<time>Feb 20, 2025</time>
 					<br><div class="description">
 	
-	&hellip;
+	While managing my homelab, I quickly ran into a major challenge: handling secrets securely in a GitOps workflow. With Kubernetes and GitOps tools like Flux, all configurations—including secrets—are stored in a Git repository. However, committing secrets in plaintext is a security risk, and even base64-encoded secrets (as Kubernetes does by default) can be easily decoded.
+After some research online, I quickly settled on SOPS (Secrets OPerationS) with Age for encryption. This happened to be the best place to start for me.&hellip;
 	
 </div>
-					<a class="readmore" href="/posts/my-first-post/">Read more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="/posts/hello-world/">Hello World</a></h1>
-					<time>Feb 20, 2025</time>
-					<br><div class="description">
-	
-	&hellip;
-	
-</div>
-					<a class="readmore" href="/posts/hello-world/">Read more ⟶</a>
+					<a class="readmore" href="/posts/secrets-with-sops/">Read more ⟶</a>
 				</section>
 				
 				
